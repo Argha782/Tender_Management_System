@@ -1,11 +1,8 @@
 import axios from "axios";
 
 // Dynamically use backend URL from environment variable
-console.log("✅ VITE_API_URL =", import.meta.env.VITE_API_URL);
-
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
-  // baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000",
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000",
   // withCredentials: true, // Uncomment if you use cookies
 });
 
