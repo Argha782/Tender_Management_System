@@ -28,7 +28,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173", // React local dev
-  "http://tms-one-sigma.vercel.app",
+  "http://tms-umber-phi.vercel.app",
   "https://tms-argha-sahas-projects.vercel.app",
   "https://tender-management-frontend-three.vercel.app",
   "https://tender-management-frontend-argha-sahas-projects.vercel.app",
